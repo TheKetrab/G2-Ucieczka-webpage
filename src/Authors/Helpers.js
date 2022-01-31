@@ -4,7 +4,7 @@ function Helpers() {
   return (
     <div id="helpers">
         <div class="helper">
-            <img src="./icons/ucieczka.png"/>
+            <img src="./icons/ucieczka.png" alt="Bogu img"/>
             <h2>Bogu</h2>
             <p>
                 Członek załogi Recovery Team, który zajął się poprawkami skryptowymi, niwelując sporo, bardzo sporo bugów.
@@ -14,7 +14,7 @@ function Helpers() {
             </p>
         </div>
         <div class="helper">
-            <img src="./icons/ucieczka.png"/>
+            <img src="./icons/ucieczka.png" alt="Maciey img"/>
             <h2>Maciey</h2>
             <p>
                 Można śmiało powiedzieć, że&nbsp;pomagał przez cały proces tworzenia modyfikacji. W pierwotnej wersji modyfikacji
@@ -24,7 +24,7 @@ function Helpers() {
             </p>
         </div>
         <div class="helper">
-            <img src="./icons/ucieczka.png"/>
+            <img src="./icons/ucieczka.png" alt="Fexo img"/>
             <h2>Fexo</h2>
             <p>
                 Po pierwszym betateście swoje trzy grosze doszucił Fexo, który rozwinął płytkie wątki. Ucieczka z&nbsp;kopalni
@@ -34,7 +34,7 @@ function Helpers() {
             </p>
         </div>
         <div class="helper">
-            <img src="./icons/ucieczka.png"/>
+            <img src="./icons/ucieczka.png" alt="Czudak img"/>
             <h2>Czudak</h2>
             <p>
                 Współpraca z tym Panem dodała koloru modyfikacji. Jedyny grafik 2D, jaki pomagał przy modyfikacji. Z&nbsp;jego
@@ -43,7 +43,7 @@ function Helpers() {
             </p>
         </div>
         <div class="helper">
-            <img src="./icons/ucieczka.png" />
+            <img src="./icons/ucieczka.png" alt="Simen img"/>
             <h2>Simen</h2>
             <p>
                 Jednen z czołowych krytyków również dodał ducha 'Ucieczce'. Wyłapał gro błędów, dzielił się doświadczeniem

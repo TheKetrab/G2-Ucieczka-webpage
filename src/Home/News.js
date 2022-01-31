@@ -21,7 +21,7 @@ function News() {
                 <div class="an-article">
                     <p class="title">Patch 1.1 wydany!</p>
                     <p class="date">1 października 2020</p>
-                    <img class="news-media" src="img/news/Ucieczka11Screen2.png" />
+                    <img class="news-media" src={process.env.PUBLIC_URL + "/img/news/Ucieczka11Screen2.png"} alt="" />
                     <p class="description">
                         Po długim czasie wychwytywania i naprawiania usterek oraz rozwijania pewnych niedokończonych modułów
                         z wielką przyjemnością udostępniam Ucieczkę w wersji 1.1. Uzupełniłem dubbing, poprawiłem jakość nagrań
@@ -64,7 +64,7 @@ function News() {
                 <div class="an-article">
                     <p class="title">Domena g2ucieczka powraca!</p>
                     <p class="date">4 lipca 2020</p>
-                    <img src="img/netrilo.png" />
+                    <img src={process.env.PUBLIC_URL + "/img/netrilo.png"} alt="" />
                     <p class="description">
                         Dzięki uprzejmości firmy <a href="https://netrilo.com/">Netrilo</a>,
                         Ucieczka wraca na standardowy adres <a href="http://g2ucieczka.pl">g2ucieczka.pl</a>.
@@ -161,7 +161,7 @@ function News() {
                     <p class="title">Tysiąc polubień!</p>
                     <p class="date">7 maja 2019</p>
                     <a class="news-media" target="_blank" href="https://www.facebook.com/G2Ucieczka/photos/a.275946012923184/643319952852453/?type=3&theater">
-                        <img width="100%" src="img/news/screen1k.jpg" />
+                        <img width="100%" src={process.env.PUBLIC_URL + "/img/news/screen1k.jpg"} alt="" />
                     </a>
                     <p class="description">
                         Z okazji tysiąca polubień na Facebooku, przygotowałem małe zestawienie

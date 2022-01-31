@@ -11,6 +11,7 @@ import React from 'react';
 
 import { render } from "react-dom";
 import {
+  HashRouter,
   BrowserRouter,
   Routes,
   Route
@@ -53,13 +54,13 @@ class App extends React.Component  {
 
   render() {
     return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<div><Header /><div class="the-content"><Home /></div></div>}></Route>
-        <Route path="/home" element={<div><Header /><div class="the-content"><Home /></div></div>}></Route>
-        <Route path="/gallery" element={<div><Header /><div class="the-content"><Gallery /></div></div>}></Route>
-        <Route path="/authors" element={<div><Header /><div class="the-content"><Authors /></div></div>}></Route>
-        <Route path="/faq" element={<div><Header /><div class="the-content"><FAQ /></div></div>}></Route>
+        <Route path="/" element={<div><Header /><div id="the-content"><Home /></div></div>}></Route>
+        <Route path="/home" element={<div><Header /><div id="the-content"><Home /></div></div>}></Route>
+        <Route path="/gallery" element={<div><Header /><div id="the-content"><Gallery /></div></div>}></Route>
+        <Route path="/authors" element={<div><Header /><div id="the-content"><Authors /></div></div>}></Route>
+        <Route path="/faq" element={<div><Header /><div id="the-content"><FAQ /></div></div>}></Route>
       </Routes>
     </BrowserRouter>
     );

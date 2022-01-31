@@ -1,32 +1,8 @@
-import { render } from "@testing-library/react";
 import React from "react";
-import {Helmet} from "react-helmet";
 import './Gallery.css';
-
-import { Button } from 'react-bootstrap';
 
 
 class Gallery extends React.Component {
-
-    componentDidMount() {
-
-        // var elems = document.getElementsByClassName("img-car");
-        // for (let i=0; i<elems.length; i++) {
-        //     elems[i].addEventListener("click", function() {
-        //         // alert(1);
-        //         var modal = $("#gallery-modal").modal("show")
-        //         $("#innerCarousel").carousel(i);
-        //     })
-        // }
-
-        // $('#gallery-modal').on('shown.bs.modal', function (e) {
-        //     $("#carouselExampleControls").carousel('pause')
-        // })
-        // $('#gallery-modal').on('hidden.bs.modal', function (e) {
-        //     $("#carouselExampleControls").carousel('cycle')
-        // })
-
-    }
 
     render() {
 
@@ -37,7 +13,7 @@ class Gallery extends React.Component {
                 <div>
                     <div class="video-wrapper">
                         <iframe src="https://www.youtube.com/embed/hj6cU6NoJgM"
-                            frameBorder="0" allowFullScreen></iframe>
+                            title="Video" frameBorder="0" allowFullScreen></iframe>
                         {/* <iframe src="https://www.youtube.com/embed/Ku6fHRBt2uQ"
                             frameborder="0" allowfullscreen></iframe> */}
                     </div>
@@ -58,26 +34,26 @@ class Gallery extends React.Component {
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="insider">
-                        <img class="img-car" src="img/screens/DS2018_1.jpg"/>
-                        <img class="img-car" src="img/screens/DS2018_2.jpg"/>
-                        <img class="img-car" src="img/screens/DS2018_3.jpg"/>
-                        <img class="img-car" src="img/screens/DS2018_4.jpg"/>
+                        <img class="img-car" src="img/screens/DS2018_1.jpg" alt=""/>
+                        <img class="img-car" src="img/screens/DS2018_2.jpg" alt=""/>
+                        <img class="img-car" src="img/screens/DS2018_3.jpg" alt=""/>
+                        <img class="img-car" src="img/screens/DS2018_4.jpg" alt=""/>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="insider">
-                        <img class="img-car" src="img/screens/DS2018_5.jpg"/>
-                        <img class="img-car" src="img/screens/DS2018_6.jpg"/>
-                        <img class="img-car" src="img/screens/Scr1.jpg"/>
-                        <img class="img-car" src="img/screens/Scr2.jpg"/>
+                        <img class="img-car" src="img/screens/DS2018_5.jpg" alt=""/>
+                        <img class="img-car" src="img/screens/DS2018_6.jpg" alt=""/>
+                        <img class="img-car" src="img/screens/Scr1.jpg" alt=""/>
+                        <img class="img-car" src="img/screens/Scr2.jpg" alt=""/>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="insider">
-                        <img class="img-car" src="img/screens/Scr3.jpg"/>
-                        <img class="img-car" src="img/screens/Scr4.jpg"/>
-                        <img class="img-car" src="img/screens/Scr5.jpg"/>
-                        <img class="img-car" src="img/screens/Scr6.jpg"/>
+                        <img class="img-car" src="img/screens/Scr3.jpg" alt=""/>
+                        <img class="img-car" src="img/screens/Scr4.jpg" alt=""/>
+                        <img class="img-car" src="img/screens/Scr5.jpg" alt=""/>
+                        <img class="img-car" src="img/screens/Scr6.jpg" alt=""/>
                     </div>
                 </div>
             </div>
@@ -100,40 +76,40 @@ class Gallery extends React.Component {
                     <div id="innerCarousel" class="carousel slide" data-interval="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="" src="./img/screens/DS2018_1.jpg" />
+                                <img class="" src="./img/screens/DS2018_1.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/DS2018_2.jpg" />
+                                <img class="" src="./img/screens/DS2018_2.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/DS2018_3.jpg" />
+                                <img class="" src="./img/screens/DS2018_3.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/DS2018_4.jpg" />
+                                <img class="" src="./img/screens/DS2018_4.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/DS2018_5.jpg" />
+                                <img class="" src="./img/screens/DS2018_5.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/DS2018_6.jpg" />
+                                <img class="" src="./img/screens/DS2018_6.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/Scr1.jpg" />
+                                <img class="" src="./img/screens/Scr1.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/Scr2.jpg" />
+                                <img class="" src="./img/screens/Scr2.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/Scr3.jpg" />
+                                <img class="" src="./img/screens/Scr3.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/Scr4.jpg" />
+                                <img class="" src="./img/screens/Scr4.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/Scr5.jpg" />
+                                <img class="" src="./img/screens/Scr5.jpg" alt=""/>
                             </div>
                             <div class="carousel-item">
-                                <img class="" src="./img/screens/Scr6.jpg" />
+                                <img class="" src="./img/screens/Scr6.jpg" alt=""/>
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#innerCarousel" role="button" data-bs-slide="prev">

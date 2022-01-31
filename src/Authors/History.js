@@ -15,7 +15,7 @@ function History() {
             rozpoczął prace od&nbsp;nowa.
         </p>
         <figure class="img-Screen">
-            <img src="img/TheKetrab.png" />
+            <img src="img/TheKetrab.png" alt=""/>
             <p>~ Archiwalny screen - dawny wygląd obozu Łowców Orków. (2016)</p>
         </figure>
         <p>
@@ -41,7 +41,7 @@ function History() {
             wszystkich osób pracujących nad modem, udało się wyrobić w terminie i grę oddajemy w Wasze ręce!
         </p>
         <figure class="img-TheKetrab">
-            <img src="img/TheKetrab.png" />
+            <img src="img/TheKetrab.png" alt="" />
             <p>~ Pamiątkowe zdjęcie - podczas weekendowej pracy nad modem. (2018)</p>
         </figure>
         <p>
