@@ -54,7 +54,7 @@ class App extends React.Component  {
 
   render() {
     return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<div><Header /><div id="the-content"><Home /></div></div>}></Route>
         <Route path="/home" element={<div><Header /><div id="the-content"><Home /></div></div>}></Route>
