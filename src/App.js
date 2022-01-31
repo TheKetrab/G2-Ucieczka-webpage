@@ -54,7 +54,7 @@ class App extends React.Component  {
 
   render() {
     return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<div><Header /><div id="the-content"><Home /></div></div>}></Route>
         <Route path="/home" element={<div><Header /><div id="the-content"><Home /></div></div>}></Route>
@@ -62,7 +62,7 @@ class App extends React.Component  {
         <Route path="/authors" element={<div><Header /><div id="the-content"><Authors /></div></div>}></Route>
         <Route path="/faq" element={<div><Header /><div id="the-content"><FAQ /></div></div>}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     );
   }
 
