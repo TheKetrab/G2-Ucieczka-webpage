@@ -1,0 +1,17 @@
+:root {
+    --page-width: 1400px;
+}
+
+main.main-authors {
+
+    background: rgb(254,255,180);
+    background: linear-gradient(140deg, rgba(254,255,180,1) 0%, rgba(253,255,216,1) 29%, rgba(253,255,228,1) 46%, rgba(254,255,230,1) 100%);
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+
+    color: #1f22201a;
+}

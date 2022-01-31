@@ -1,0 +1,49 @@
+
+#author {
+
+    max-width: var(--page-width);
+    padding: 1em;
+    font-size: .7em;
+    line-height: 1.6em;
+}
+
+#author figure {
+    max-width: 30%;    
+    margin-bottom: 10px;
+}
+
+#author figure.img-TheKetrab {
+    float: right;
+    margin-left: 30px;
+}
+
+#author figure.img-Screen {
+    float: left;
+    margin-right: 30px;
+}
+
+#author figure img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: black 1px 1px 5px;
+}
+
+#author figure p {
+    margin: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 850px) {
+
+    #author figure {
+        max-width: 60%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+        margin-right: auto !important;
+        margin-left: auto !important;
+        float: none !important;
+        /* background-color: red; */
+    }
+    
+}
