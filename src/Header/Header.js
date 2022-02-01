@@ -46,12 +46,12 @@ class Header extends React.Component {
                 <a href="/authors">Twórcy</a>
                 <a href="/faq">FAQ</a> */}
 
-                <Link to="/home" onClick={this.goToViolation('the-content')}>Home</Link>
-                <Link to="/gallery" onClick={this.goToViolation('the-content')}>Galeria</Link>
-                <Link to="/authors" onClick={this.goToViolation('the-content')}>Twórcy</Link>
-                <Link to="/faq" onClick={this.goToViolation('the-content')}>FAQ</Link>
+                <Link to="/home" onClick={() => this.goToViolation('the-content')}>Home</Link>
+                <Link to="/gallery" onClick={() => this.goToViolation('the-content')}>Galeria</Link>
+                <Link to="/authors" onClick={() => this.goToViolation('the-content')}>Twórcy</Link>
+                <Link to="/faq" onClick={() => this.goToViolation('the-content')}>FAQ</Link>
             </div>
-            <a id="header-arrow" href="#the-content" class="arrow arr-down"></a>
+            <a id="header-arrow" class="arrow arr-down" onClick={() => this.goToViolation('the-content')}></a>
         </div>
     </header>
 
