@@ -1,5 +1,8 @@
 
 #news {
+
+    max-width: var(--page-width);
+
     display: flex;
     align-items: center;
     flex-direction: column;

@@ -95,7 +95,7 @@ main.faq-main {
 
     content: "?";
 
-    background: lightblue;
+    background: rgb(220, 228, 115);
 
     border: solid 2px black;
 
@@ -143,7 +143,7 @@ main.faq-main {
 
     content: "\1F4AC";
 
-    background: yellowgreen;
+    background: rgb(209, 177, 70);
     border: solid 2px black;
     transform: translateY(var(--qa-corner));
 

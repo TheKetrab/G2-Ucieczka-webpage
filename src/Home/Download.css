@@ -4,6 +4,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 #download {
@@ -51,14 +52,14 @@ main {
 
 #description {
     font-family: 'Duru Sans';
-    font-size: .7em;
-    line-height: 1.6em;
+    font-size: .6em;
+    line-height: 1.7em;
 }
 
 #description ul {
     margin-top: 1em;
     line-height: 130%;
-    font-size: .7em;
+    font-size: .8em;
 }
 
 
@@ -95,6 +96,7 @@ main {
     opacity: 90%;
 
     transition:
+        color ease .5s,
         opacity ease .2s,
         outline ease-in .25s,
         outline-offset ease-in .25s,
@@ -106,6 +108,8 @@ main {
     transform: scale(1.1);
     outline: 3px var(--color3) solid;
     outline-offset: -15px;
+
+    color: rgb(54, 54, 42) !important;
 }
 
 .download-btn > span::before {
