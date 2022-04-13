@@ -1,0 +1,23 @@
+.main-panel {
+    display: flex;
+    max-width: 1700px;
+    width: 100%;
+
+}
+
+#the-content {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 1400px) {
+    #the-aside {
+        display: none !important;
+    }
+}

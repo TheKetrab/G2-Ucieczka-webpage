@@ -1,3 +1,4 @@
+import DownloadBtn from '../Page/DownloadBtn';
 import './Download.css';
 
 function Download() {
@@ -5,11 +6,11 @@ function Download() {
     <div id="download" class="panel">
         <aside class="left">
             <div class="img-u12-wrapper">
-                <img id="img-u12" src={process.env.PUBLIC_URL + '/img/Ucieczka12Screen1.png'} />
+                <img id="img-u12" src={process.env.PUBLIC_URL + '/img/news/Ucieczka11Screen1_400.jpg'} />
             </div>
-            <a href="" class="download-btn"><span>Pobierz Ucieczkę</span></a>
+            <DownloadBtn/>
             <div id="assets">
-                <p>Zasoby do pobrania:</p>
+                <h2>Zasoby do pobrania:</h2>
                     <ul>
                         <li><a href="">Instalator</a></li>
                         <li><a href="">Paczka z modem</a></li>
@@ -35,7 +36,7 @@ function Download() {
                 z odciętej od świata Kolonii? I czy wojna z orkami jest jeszcze do wygrania?
                 Przekonasz się o tym grając w 'Ucieczkę'.
             </p>
-            <ul>
+            <ul class="mod-features">
                 <li>czas gry: 30-40h (5 rozdziałów)</li>
                 <li>pełen polski dubbing</li>
                 <li>stopień trudności: do wyboru w opcjach </li>

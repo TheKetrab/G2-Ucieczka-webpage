@@ -1,0 +1,66 @@
+.download-btn {
+
+    display: block;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: .8em;
+
+    color: black;
+    background: var(--color2);
+    border: 3px solid var(--color1);
+    outline: 1px var(--color2) solid;
+    outline-offset: -5px;
+
+
+    padding: 1em 2em;
+    margin: 3em 0em;
+    border-radius: 1em;
+    text-align: center;
+
+    text-transform: uppercase;
+
+    box-shadow: 1px 1px 3px rgba(82, 73, 0, 0.883);
+
+    opacity: 90%;
+
+    transition:
+        color ease .5s,
+        opacity ease .2s,
+        outline ease-in .25s,
+        outline-offset ease-in .25s,
+        transform ease .4s;
+}
+
+.download-btn:hover {
+    opacity: 100%;
+    transform: scale(1.1);
+    outline: 3px var(--color3) solid;
+    outline-offset: -15px;
+
+    color: rgb(54, 54, 42) !important;
+}
+
+.download-btn > span::before {
+    background-image: url('/public/icons/download.png');
+    background-size: 2em 2em;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    content: "";
+
+    margin-right: .2em;
+
+    vertical-align: middle;
+    line-height: 2em;
+
+}
+
+.download-btn > span {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    line-height: 2em;
+    height: 2em;
+
+}

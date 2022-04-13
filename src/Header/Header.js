@@ -1,13 +1,15 @@
 import React from 'react';
 import './Header.css';
 import Links from './Links.js'
+import Navigation from './Navigation.js'
 
-import { Link } from "react-router-dom";
 
 class Header extends React.Component {
 
   goToViolation=(id)=>{
-    const violation = document.getElementById(id); 
+    //const violation = document.getElementById(id);
+    const violation = document.getElementById('nav-outside')
+    
     if (!violation)
       return;
     window.scrollTo({
@@ -35,22 +37,7 @@ class Header extends React.Component {
             </div>    
         </div>
         <div class="header-bottom">
-            <div class="navigation">
-                {/* <button onClick={() => setPage('Home')}>Home</button>
-                <button onClick={() => setPage('Gallery')}>Galeria</button>
-                <button onClick={() => setPage('Authors')}>Twórcy</button>
-                <button onClick={() => setPage('FAQ')}>FAQ</button> */}
-
-                {/* <a href="/home">Home</a>
-                <a href="/gallery">Galeria</a>
-                <a href="/authors">Twórcy</a>
-                <a href="/faq">FAQ</a> */}
-
-                <Link to="/home" onClick={() => this.goToViolation('the-content')}>Home</Link>
-                <Link to="/gallery" onClick={() => this.goToViolation('the-content')}>Galeria</Link>
-                <Link to="/authors" onClick={() => this.goToViolation('the-content')}>Twórcy</Link>
-                <Link to="/faq" onClick={() => this.goToViolation('the-content')}>FAQ</Link>
-            </div>
+          <Navigation />
             <a id="header-arrow" class="arrow arr-down" onClick={() => this.goToViolation('the-content')}></a>
         </div>
     </header>

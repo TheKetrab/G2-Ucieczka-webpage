@@ -8,11 +8,21 @@
 }  
 
 @font-face {
+  font-family: 'SecretMansion';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/public/fonts/SecretMansion-Ea1RW.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}  
+
+@font-face {
   font-family: 'Duru Sans';
   font-style: normal;
   font-weight: 400;
-  src: url(/public/fonts/DuruSans-Regular.ttf) format('truetype');    
+  /*src: url(/public/fonts/DuruSans-Regular.ttf) format('truetype');    */
+  src: url(/public/fonts/SecretMansion-Ea1RW.ttf) format('truetype');    
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+
 }  
 
 html {
@@ -20,12 +30,20 @@ html {
 }
 
 :root {
+/*
   --color1: #A58105;
   --color2: #BD9B15;
   --color3: #DDB639;
   --color4: #FFDF01;
   --color5: #FFCC01;
   --color6: #ebe2c2;
+*/
+  --color1: #055da5;
+  --color2: #157abd;
+  --color3: #39afdd;
+  --color4: #01ccff;
+  --color5: #01ccff;
+  --color6: #c2ebeb;
 
   --negro1: #000000ee;
   --negro2: #1B1B1Bbb;
@@ -42,8 +60,13 @@ html {
 
 
 body, html {
+  font-family: 'Reggae One', sans-serif;
+
+
   margin: 0;
-  font-family: sans-serif;
+/*  font-family: 'Red Hat Display', sans-serif;*/
+  font-family: 'Ruda', sans-serif;
+/*  font-family: sans-serif;*/
   color: var(--negro1);
 
   text-shadow: 
@@ -58,9 +81,53 @@ body, html {
 }
 
 h1, h2, h3 {
-  font-family: 'Balthazar', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Orelega One', serif;
 }
 
 a:hover {
   color: currentColor !important;
+}
+
+
+
+
+/*
+li {
+  list-style: none;
+  padding-inline-start: 1ch;
+
+  margin-left: 50px;
+}
+
+li::before{
+  margin-right: 50px;
+  content: "\00BB";
+}
+*/
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "+";
+  content: "\00BB";
+  padding-right: 5px;
+}
+
+.reveal{
+  opacity: 0;
+  transition: .75s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0) !important;
+  transform: translateX(0) !important;
+  opacity: inherit;
 }

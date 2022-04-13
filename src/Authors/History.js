@@ -15,8 +15,11 @@ function History() {
             rozpoczął prace od&nbsp;nowa.
         </p>
         <figure class="img-Screen">
-            <img src={process.env.PUBLIC_URL + "/img/TheKetrab.png"} alt=""/>
-            <p>~ Archiwalny screen - dawny wygląd obozu Łowców Orków. (2016)</p>
+            <div class="inside-archive-figure">
+                <img src={process.env.PUBLIC_URL + "/img/archive/OLD.bmp"} alt=""/>
+                <img src={process.env.PUBLIC_URL + "/img/archive/OLD1.bmp"} alt=""/>
+            </div>
+            <p>~ Archiwum: dawny wygląd obozu Łowców Orków i Myśliwych (październik 2015)</p>
         </figure>
         <p>
             Najpierw mod był tworzony weekendowo, to&nbsp;znaczy raz na&nbsp;tydzień
@@ -27,6 +30,13 @@ function History() {
             Przez kolejne dwa lata fabuła stawała się coraz bardziej kompletna i&nbsp;w&nbsp;2017. roku dało się ukończyć cztero-rozdziałową
             'Ucieczkę'. Wtedy TheKetrab założył fanpage na Facebooku i&nbsp;rozpoczęły się pierwsze większe betatesty.
         </p>
+        <figure class="img-OldScreens">
+            <div class="inside-archive-figure">
+                <img src={process.env.PUBLIC_URL + "/img/archive/Screen1Ready.jpg"} alt=""/>
+                <img src={process.env.PUBLIC_URL + "/img/archive/Screen2Ready.jpg"} alt=""/>
+            </div>
+            <p>~ Archiwum: pierwotne screeny promujące modyfikację (2016)</p>
+        </figure>
         <p>
             Okazało się, że&nbsp;mod był przeciętny. Tym większe znaki zapytania nad modem pojawiały się, ponieważ twórca rozpoczął studia,
             które zżerały czas niemal w stu procentach... Jeden z betatesterów, Fexo, zaproponował, że&nbsp;pomoże rozwinąć akcję

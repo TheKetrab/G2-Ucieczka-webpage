@@ -3,7 +3,7 @@ import './News.css';
 function News() {
   return (
     <div id="news" class="panel">
-        <h1 class="news-header">Aktualnosci</h1>
+        <h1 class="news-header">Aktualności</h1>
         <div id="grid">
 
             {/* <!-- <div>
@@ -17,11 +17,11 @@ function News() {
                 </div>
             </div> --> */}
 
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Patch 1.1 wydany!</p>
+                    <h2 class="title">Patch 1.1 wydany!</h2>
                     <p class="date">1 października 2020</p>
-                    <img class="news-media" src={process.env.PUBLIC_URL + "/img/news/Ucieczka11Screen2.png"} alt="" />
+                    <img class="news-media" src={process.env.PUBLIC_URL + "/img/news/Ucieczka11Screen2_400.png"} alt="" />
                     <p class="description">
                         Po długim czasie wychwytywania i naprawiania usterek oraz rozwijania pewnych niedokończonych modułów
                         z wielką przyjemnością udostępniam Ucieczkę w wersji 1.1. Uzupełniłem dubbing, poprawiłem jakość nagrań
@@ -36,9 +36,9 @@ function News() {
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Ucieczka 1.1 nadchodzi</p>
+                    <h2 class="title">Ucieczka 1.1 nadchodzi</h2>
                     <p class="date">23 sierpnia 2020</p>
                     <div class="news-media video-wrapper">
                         <iframe src="https://www.youtube.com/embed/_0u0KZl4qp8"
@@ -60,36 +60,9 @@ function News() {
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Domena g2ucieczka powraca!</p>
-                    <p class="date">4 lipca 2020</p>
-                    <img src={process.env.PUBLIC_URL + "/img/netrilo.png"} alt="" />
-                    <p class="description">
-                        Dzięki uprzejmości firmy <a href="https://netrilo.com/">Netrilo</a>,
-                        Ucieczka wraca na standardowy adres <a href="http://g2ucieczka.pl">g2ucieczka.pl</a>.
-                        Przygarnęli oni na swoje serwery stronę modyfikacji i&nbsp;ponownie można pobrać tu
-                        moda i&nbsp;dowiedzieć się ciekawych informacji. To prawdziwy fenomen, że wśród fanów Gothica
-                        istnieje bezinteresowna pomoc -&nbsp;w imię dobra projektu!
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div class="an-article">
-                    <p class="title">Nowy adres strony</p>
-                    <p class="date">25 kwietnia 2020</p>
-                    <div class="fake-img"></div>
-                    <p class="description">
-                        Minął rok hostowania strony, co oznacza wygaśnięcie zakupionego hostingu i domeny <a href="http://www.g2ucieczka.pl">g2ucieczka.pl</a>.
-                        Strona zostaje przeniesiona na darmowy hosting Github Pages i dostępna pod linkiem
-                        <s><a href="https://theketrab.github.io/g2ucieczka/">theketrab.github.io/g2ucieczka</a></s>.
-                        Paczka z modem jest wrzucona na Dysk Google, a link do niej znajduje się w dziale Download.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div class="an-article">
-                    <p class="title">Youtuberzy nagrywają</p>
+                    <h2 class="title">Youtuberzy nagrywają</h2>
                     <p class="date">20 kwietnia 2020</p>
                     <div class="news-media video-wrapper">
                         <iframe src="https://www.youtube.com/embed/jMHMEnPUdrg"
@@ -110,9 +83,9 @@ function News() {
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Ucieczka w nowym roku</p>
+                    <h2 class="title">Ucieczka w nowym roku</h2>
                     <p class="date">1 stycznia 2020</p>
                     <div class="fake-img"></div>
                     <p class="description">
@@ -123,30 +96,30 @@ function News() {
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Pierwszy patch</p>
+                    <h2 class="title">Pierwszy patch</h2>
                     <p class="date">16 lipca 2019</p>
                     <div class="fake-img"></div>
                     <p class="description">
-                        W dziale Download dostępna jest wersja 1.0.1 zwierająca wszystkie dotychczas wydane łatki. <u>Nie jest to patch 1.1.</u>
+                        W dziale Download dostępna jest wersja 1.0.1 zwierająca wszystkie dotychczas wydane łatki. <u>Nie jest to patch 1.1.</u>&nbsp; 
             			Zasadniczy patch jest planowany dopiero na przyszł rok!
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Ucieczka ukończona!</p>
+                    <h2 class="title">Ucieczka ukończona!</h2>
                     <p class="date">1 lipca 2019</p>
-                    <div class="fake-img"></div>
+                    <img class="news-media" src={process.env.PUBLIC_URL + "/img/news/Release_400.jpg"} alt="" />
                     <p class="description">
                         Modyfikację w wersji 1.0 możecie pobrać w dziale Download.
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Trailer i data premiery</p>
+                    <h2 class="title">Trailer i data premiery</h2>
                     <p class="date">9 czerwca 2019</p>
                     <div class="news-media video-wrapper">
                         <iframe src="https://www.youtube.com/embed/Ku6fHRBt2uQ"
@@ -156,9 +129,9 @@ function News() {
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Tysiąc polubień!</p>
+                    <h2 class="title">Tysiąc polubień!</h2>
                     <p class="date">7 maja 2019</p>
                     <a class="news-media" target="_blank" href="https://www.facebook.com/G2Ucieczka/photos/a.275946012923184/643319952852453/?type=3&theater">
                         <img width="100%" src={process.env.PUBLIC_URL + "/img/news/screen1k.jpg"} alt="" />
@@ -171,9 +144,9 @@ function News() {
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Drugi gameplay</p>
+                    <h2 class="title">Drugi gameplay</h2>
                     <p class="date">22 kwietnia 2019</p>
                     <div class="news-media video-wrapper">
                         <iframe src="https://www.youtube.com/embed/hj6cU6NoJgM"
@@ -187,9 +160,9 @@ function News() {
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Timelapse</p>
+                    <h2 class="title">Timelapse</h2>
                     <p class="date">4 listopada 2018</p>
                     <div class="news-media video-wrapper">
                         <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FG2Ucieczka%2Fvideos%2F296467000995156%2F&show_text=0&width=560"
@@ -199,9 +172,9 @@ function News() {
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="reveal">
                 <div class="an-article">
-                    <p class="title">Pierwszy gameplay</p>
+                    <h2 class="title">Pierwszy gameplay</h2>
                     <p class="date">18 września 2018</p>
                     <div class="news-media video-wrapper">
                         <iframe src="https://www.youtube.com/embed/3kXTf43RVV4"

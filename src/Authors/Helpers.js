@@ -3,7 +3,14 @@ import './Helpers.css';
 function Helpers() {
   return (
     <div id="helpers">
-        <div class="helper">
+        <div class="helper reveal">
+            <img src={process.env.PUBLIC_URL + "/icons/ucieczka.png"} alt="TheKetrab img"/>
+            <h2>TheKetrab</h2>
+            <p>
+                Twórca modyfikacji. alafklgdnalvnar kjngark jnarkjg nakgj naejkg naekjgn aerjkng ekjn ke 
+            </p>
+        </div>
+        <div class="helper reveal">
             <img src={process.env.PUBLIC_URL + "/icons/ucieczka.png"} alt="Bogu img"/>
             <h2>Bogu</h2>
             <p>
@@ -13,7 +20,7 @@ function Helpers() {
                 zakończyłoby grę z powodu bugów albo innych nieprzyjemności.
             </p>
         </div>
-        <div class="helper">
+        <div class="helper reveal">
             <img src={process.env.PUBLIC_URL + "/icons/ucieczka.png"} alt="Maciey img"/>
             <h2>Maciey</h2>
             <p>
@@ -23,7 +30,7 @@ function Helpers() {
                 orkowy obóz na plaży i&nbsp;dokonał kilka poprawek w ZENie.
             </p>
         </div>
-        <div class="helper">
+        <div class="helper reveal">
             <img src={process.env.PUBLIC_URL + "/icons/ucieczka.png"} alt="Fexo img"/>
             <h2>Fexo</h2>
             <p>
@@ -33,7 +40,7 @@ function Helpers() {
                 była książka o&nbsp;Willu, bohaterze 'Ucieczki', ale, niestety, Fexo napisał tylko kilka fragmentów...
             </p>
         </div>
-        <div class="helper">
+        <div class="helper reveal">
             <img src={process.env.PUBLIC_URL + "/icons/ucieczka.png"} alt="Czudak img"/>
             <h2>Czudak</h2>
             <p>
@@ -42,7 +49,7 @@ function Helpers() {
                 ale Czudak wkręcił się bardziej i&nbsp;pomagał bezinteresownie, szybko, pięknie!
             </p>
         </div>
-        <div class="helper">
+        <div class="helper reveal">
             <img src={process.env.PUBLIC_URL + "/icons/ucieczka.png"} alt="Simen img"/>
             <h2>Simen</h2>
             <p>

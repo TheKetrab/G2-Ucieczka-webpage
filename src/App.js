@@ -1,13 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header/Header.js'
-import Home from './Home/Home.js'
-import Gallery from './Gallery/Gallery';
-import Authors from './Authors/Authors';
-import FAQ from './FAQ/FAQ';
 
 import React from 'react';
 
+import Page from './Page/Page.js';
 
 import { render } from "react-dom";
 import {
@@ -56,11 +52,11 @@ class App extends React.Component  {
     return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<div><Header /><div id="the-content"><Home /></div></div>}></Route>
-        <Route path="/home" element={<div><Header /><div id="the-content"><Home /></div></div>}></Route>
-        <Route path="/gallery" element={<div><Header /><div id="the-content"><Gallery /></div></div>}></Route>
-        <Route path="/authors" element={<div><Header /><div id="the-content"><Authors /></div></div>}></Route>
-        <Route path="/faq" element={<div><Header /><div id="the-content"><FAQ /></div></div>}></Route>
+        <Route path="/" element={Page('home')}></Route>
+        <Route path="/home" element={Page('home')}></Route>
+        <Route path="/gallery" element={Page('gallery')}></Route>
+        <Route path="/authors" element={Page('authors')}></Route>
+        <Route path="/faq" element={Page('faq')}></Route>
       </Routes>
     </HashRouter>
     );

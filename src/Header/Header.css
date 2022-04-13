@@ -114,3 +114,11 @@ header a:hover {
     transform: translateX(.5em) rotate(-135deg);
 }
 
+
+
+@media screen and (max-width: 750px) {
+    .header-bottom .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -18,8 +18,16 @@
 }
 
 #author figure.img-Screen {
+    max-width: 60%;
     float: left;
     margin-right: 30px;
+}
+
+#author figure.img-OldScreens {
+    max-width: 100%;
+    margin: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 #author figure img {
@@ -45,5 +53,17 @@
         float: none !important;
         /* background-color: red; */
     }
-    
+
+    figure.img-Screen {
+        max-width: 90% !important;
+    }
+}
+
+
+.inside-archive-figure {
+    display: flex;
+}
+
+.inside-archive-figure > * {
+    margin: .2em;
 }

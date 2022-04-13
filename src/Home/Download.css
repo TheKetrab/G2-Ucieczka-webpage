@@ -1,57 +1,26 @@
 
-
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #download {
-
-    /* --border-offset: 20px; */
-    /* border-top: solid var(--border-offset) var(--color2); */
-    /* border-top-left-radius: 200px; */
-
     position: relative;
-
-    background: rgb(254,255,180);
-    background: linear-gradient(140deg, rgba(254,255,180,1) 0%, rgba(253,255,216,1) 29%, rgba(253,255,228,1) 46%, rgba(254,255,230,1) 100%);
-    
-
     max-width: var(--page-width);
-
     font-size: clamp(1rem, 2.5vw, 2rem);
-
 }
-
-/* #download::before {
-
-    content: "";
-    background-color: var(--color2);
-    z-index: -1;
-
-    width: 100%;
-    height: calc(100% + var(--border-offset));
-
-    position: absolute;
-    top: calc(-1 * var(--border-offset));
-    left: 0;
-
-} */
 
 #download .left h1 {
     padding: 0;
     margin: 0;
     font-size: 3em;
     font-weight: 1000;
-    font-family: 'Balthazar';
-    
     margin-bottom: .5em;
 }
 
 #description {
-    font-family: 'Duru Sans';
+    font-family: 'Ruda', sans-serif;
     font-size: .6em;
     line-height: 1.7em;
 }
@@ -68,72 +37,8 @@ main {
     margin: 0;
 }
 
-
-.download-btn {
-
-    display: block;
-    text-decoration: none;
-
-    font-weight: bold;
-    font-size: .8em;
-
-    color: black;
-    background: var(--color2);
-    border: 3px solid var(--color1);
-    outline: 1px var(--color2) solid;
-    outline-offset: -5px;
-
-
-    padding: 1em 2em;
-    margin: 3em 0em;
-    border-radius: 1em;
-    text-align: center;
-
-    text-transform: uppercase;
-
-    box-shadow: 1px 1px 3px rgba(82, 73, 0, 0.883);
-
-    opacity: 90%;
-
-    transition:
-        color ease .5s,
-        opacity ease .2s,
-        outline ease-in .25s,
-        outline-offset ease-in .25s,
-        transform ease .4s;
-}
-
-.download-btn:hover {
-    opacity: 100%;
-    transform: scale(1.1);
-    outline: 3px var(--color3) solid;
-    outline-offset: -15px;
-
-    color: rgb(54, 54, 42) !important;
-}
-
-.download-btn > span::before {
-    background-image: url('/public/icons/download.png');
-    background-size: 2em 2em;
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    content: "";
-
-    margin-right: .2em;
-
-    vertical-align: middle;
-    line-height: 2em;
-
-}
-
-.download-btn > span {
+.mod-features {
     padding: 0;
-    margin: 0;
-    display: inline-block;
-    line-height: 2em;
-    height: 2em;
-
 }
 
 
@@ -143,6 +48,17 @@ main {
 
     border-top: solid 2px #1f1f1f;
     font-size: .8em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#assets > ul {
+    margin-top: 0;
+    align-self: flex-start;
+    padding-left: 1em;
 }
 
 #assets p {

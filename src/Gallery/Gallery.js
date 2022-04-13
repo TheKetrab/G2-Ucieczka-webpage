@@ -7,20 +7,19 @@ import Modal from 'react-bootstrap/Modal';
 
 function Gallery() {
 
-    const images = [
-        "/img/screens/DS2018_1.jpg",
-        "/img/screens/DS2018_2.jpg",
-        "/img/screens/DS2018_3.jpg",
-        "/img/screens/DS2018_4.jpg",
-        "/img/screens/DS2018_5.jpg",
-        "/img/screens/DS2018_6.jpg",
-        "/img/screens/Scr1.jpg",
-        "/img/screens/Scr2.jpg",
-        "/img/screens/Scr3.jpg",
-        "/img/screens/Scr4.jpg",
-        "/img/screens/Scr5.jpg",
-        "/img/screens/Scr6.jpg",
-    ]
+    function getImages(big_min,dim) {
+        var images = [];
+        for (let i=1; i<=9; i++)
+            images.push(`/img/screens/${big_min}/G2U_Scr_${dim}_0${i}.jpg`)
+
+        for (let i=10; i<=32; i++)
+            images.push(`/img/screens/${big_min}/G2U_Scr_${dim}_${i}.jpg`)
+
+        return images;
+    }
+
+    const bigImages = getImages("big","1920_1080")
+    const miniImages = getImages("mini","400_225")
 
     const showMyModal = (i) => {
         setModalShow(true);
@@ -30,7 +29,7 @@ function Gallery() {
         setModalShow(false);
     }
     
-    const carouselItemsFunc = (n,modal) => {
+    const carouselItemsFunc = (n,modal,images) => {
 
         let imgClass = modal ? 'img-modal' : `img-${n}-car`;
 
@@ -63,8 +62,8 @@ function Gallery() {
     const [modalCarouselIdx, setModalCarouselIdx] = useState(0);
     const [modalShow, setModalShow] = useState(false)
       
-    var carouselItems = carouselItemsFunc(4,false)
-    var carouselItems2 = carouselItemsFunc(1,true)
+    var carouselItems = carouselItemsFunc(4,false,miniImages)
+    var carouselItems2 = carouselItemsFunc(1,true,bigImages)
     
     return (
     <div id="gallery">

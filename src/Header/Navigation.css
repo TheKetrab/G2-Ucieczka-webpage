@@ -1,0 +1,23 @@
+.navigation {
+
+    padding: .2em 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 3em;
+}
+
+.navigation > a {
+    margin: 0 1em;
+    text-decoration: none;
+    font-family: 'Balthazar';
+    text-transform: uppercase;
+
+    transition: opacity .2s;
+    opacity: 80%;
+}
+
+.navigation > a:hover {
+    opacity: 100%;
+}
+

@@ -41,12 +41,6 @@ main.faq-main {
 
 
     margin: 3em 1em;
-    opacity: 0.9;
-    transition: opacity .2s ease-in;
-}
-
-.qa:hover {
-    opacity: 1;
 }
 
 
@@ -95,7 +89,7 @@ main.faq-main {
 
     content: "?";
 
-    background: rgb(220, 228, 115);
+    background: var(--color3);
 
     border: solid 2px black;
 
@@ -143,7 +137,7 @@ main.faq-main {
 
     content: "\1F4AC";
 
-    background: rgb(209, 177, 70);
+    background: var(--color4);
     border: solid 2px black;
     transform: translateY(var(--qa-corner));
 

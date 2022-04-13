@@ -175,12 +175,12 @@
     left: calc( -1 * var(--before-img-link) - 1em);
 }
 .fb-link::before {
-    background: url('/public/img/icons/fb.png');
+    background: url('/public/icons/fb.png');
     background-size: var(--before-img-link) var(--before-img-link);
 }
 
 .yt-link::before {
-    background: url('/public/img/icons/yt.png');
+    background: url('/public/icons/yt.png');
     background-size: var(--before-img-link) var(--before-img-link);
 }
 
@@ -252,8 +252,9 @@
     max-width: 80wh; */
     width: 100%;
 
+    
     margin-bottom: 50%;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
     
 }
 
@@ -329,8 +330,6 @@
 .carousel-item > img {
     max-width:100%;
     object-fit: contain;
-
-    transform: scale(1.1);
 }
 
 .gallery-modal .modal-content {
