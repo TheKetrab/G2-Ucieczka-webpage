@@ -154,5 +154,13 @@
         transform: translateY(100px);
         transition-delay: 0s;
     }
+
+    #news h1 {
+        font-size: 3em;
+    }
+
+    #grid .description {
+        font-size: .8em;
+    }
 }
 

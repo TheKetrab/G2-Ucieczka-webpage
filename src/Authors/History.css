@@ -36,6 +36,13 @@
     box-shadow: black 1px 1px 5px;
 }
 
+#author figure img.double {
+    width: 50%;
+}
+
+
+
+
 #author figure p {
     margin: 10px;
     text-align: center;

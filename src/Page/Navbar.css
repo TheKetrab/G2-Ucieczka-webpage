@@ -13,11 +13,14 @@
   text-decoration: none;
 }
 
+#navbar {
+  z-index: 5;
+}
+
 .sticky {
 
     position: fixed !important;
     top: 0;
-    z-index: 5;
 
   }
 

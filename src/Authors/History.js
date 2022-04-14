@@ -16,8 +16,8 @@ function History() {
         </p>
         <figure class="img-Screen">
             <div class="inside-archive-figure">
-                <img src={process.env.PUBLIC_URL + "/img/archive/OLD.bmp"} alt=""/>
-                <img src={process.env.PUBLIC_URL + "/img/archive/OLD1.bmp"} alt=""/>
+                <img class="double" src={process.env.PUBLIC_URL + "/img/archive/OLD.bmp"} alt=""/>
+                <img class="double" src={process.env.PUBLIC_URL + "/img/archive/OLD1.bmp"} alt=""/>
             </div>
             <p>~ Archiwum: dawny wygląd obozu Łowców Orków i Myśliwych (październik 2015)</p>
         </figure>
@@ -32,8 +32,8 @@ function History() {
         </p>
         <figure class="img-OldScreens">
             <div class="inside-archive-figure">
-                <img src={process.env.PUBLIC_URL + "/img/archive/Screen1Ready.jpg"} alt=""/>
-                <img src={process.env.PUBLIC_URL + "/img/archive/Screen2Ready.jpg"} alt=""/>
+                <img class="double" src={process.env.PUBLIC_URL + "/img/archive/Screen1Ready.jpg"} alt=""/>
+                <img class="double" src={process.env.PUBLIC_URL + "/img/archive/Screen2Ready.jpg"} alt=""/>
             </div>
             <p>~ Archiwum: pierwotne screeny promujące modyfikację (2016)</p>
         </figure>
