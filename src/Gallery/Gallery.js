@@ -1,11 +1,19 @@
 import {useState} from "react";
 import './Gallery.css';
-
+import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import Modal from 'react-bootstrap/Modal';
 
 
 function Gallery() {
+
+    const [width, setWidth] = React.useState(window.innerWidth);
+    const updateWidth = () => { setWidth(window.innerWidth); };
+    React.useEffect(() => {
+        window.addEventListener("resize", updateWidth);    
+        return () => window.removeEventListener("resize", updateWidth);
+    
+    });
 
     function getImages(big_min,dim) {
         var images = [];
@@ -62,7 +70,8 @@ function Gallery() {
     const [modalCarouselIdx, setModalCarouselIdx] = useState(0);
     const [modalShow, setModalShow] = useState(false)
       
-    var carouselItems = carouselItemsFunc(4,false,miniImages)
+    var itemToRender = width < 630 ? 1 : width < 1000 ? 2 : 3;
+    var carouselItems = carouselItemsFunc(itemToRender,false,miniImages)
     var carouselItems2 = carouselItemsFunc(1,true,bigImages)
     
     return (
@@ -87,9 +96,11 @@ function Gallery() {
             </div>
         </div>
         
-        <Carousel indicators={false}>
-            {carouselItems}
-        </Carousel>
+        <div class="gal-car">
+            <Carousel indicators={false}>
+                {carouselItems}
+            </Carousel>
+        </div>
 
 
         <Modal show={modalShow} onHide={hideMyModal}    className="gallery-modal"     dialogClassName="modal-huge">

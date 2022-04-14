@@ -22,6 +22,13 @@
 }
 
 
+@media screen and (max-width: 1200px) {
+
+    .navigation {
+        font-size: 2em;
+    }
+  }
+  
 
 @media screen and (max-width: 850px) {
 
@@ -31,6 +38,7 @@
     }
 
     .navigation {
+        font-size: 3.5em;
         margin: 0;
         padding: 0;
     }

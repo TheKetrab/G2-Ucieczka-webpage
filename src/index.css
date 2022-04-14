@@ -134,6 +134,6 @@ li:before {
 
 
 :root {
-  --bs-body-font-family: "Arial";
+  --bs-body-font-family: 'Ruda', 'sans-serif';
 }
 

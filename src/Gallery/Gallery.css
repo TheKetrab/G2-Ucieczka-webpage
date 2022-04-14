@@ -1,6 +1,6 @@
 #gallery {
 
-    min-height: 100vh;
+    min-height: calc(100vh - 60px);
 
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@
     flex-basis: 40%;
     flex-grow: 2;
 
-    padding: 20px 100px;
+    padding: 10px;
     border: 0;
 }
 
@@ -85,7 +85,8 @@
 }
 .more-img-and-videos p {
     align-self: center;
-    font-size: 1.5rem;
+    font-size: 1.5em;
+    white-space: nowrap;
 }
 
 .more-img-and-videos a {
@@ -139,10 +140,10 @@
 #main-gallery {
     display: flex;
     flex-direction: column;
-
+/*
     background: rgb(254,255,180);
     background: linear-gradient(140deg, rgba(254,255,180,1) 0%, rgba(253,255,216,1) 29%, rgba(253,255,228,1) 46%, rgba(254,255,230,1) 100%);
-
+*/
     margin: 0;
 
 
@@ -218,6 +219,14 @@
         --gal-img-wrapper-percent: 50%;
     }
     
+
+    .main-gallery-center > :nth-child(2) {
+        padding: 0;
+    }
+
+    .more-img-and-videos p {
+        font-size: 1em;
+    }
 }
 
 
@@ -381,4 +390,9 @@
     display: inline-block;
     width: 2rem;
     height: 2rem;
+}
+
+.gal-car {
+    padding: 10px;
+    border-top: solid 3px black;
 }
