@@ -29,7 +29,7 @@ main.faq-main {
 .qa {
 
     --qa-corner: 50px;
-    --qa-border: 2px;
+    --qa-border: 3px;
     --qa-extra: 5px;
 
 
@@ -48,7 +48,7 @@ main.faq-main {
     background: white;
     
     min-height: 150px;
-    padding: 1em 3em;
+    padding: calc(max(1em,var(--qa-corner))) calc(max(3em,var(--qa-corner)));
 
     border: solid var(--qa-border) black;
     border-radius: var(--qa-corner);
@@ -119,7 +119,8 @@ main.faq-main {
 
     position: relative;
 
-    padding: 1em 3em;
+    padding: calc(max(1em,var(--qa-corner))) calc(max(3em,var(--qa-corner)));
+
 }
 
 .a::before {
@@ -175,3 +176,16 @@ main.faq-main {
 }
 
 
+@media screen and (max-width: 750px) {
+    .qa {
+        padding: 1em;
+        margin: 1em;
+
+    }
+    #faq {
+        overflow-x: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+}
