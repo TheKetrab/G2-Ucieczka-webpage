@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/g2uTest/static/css/main.24799809.css",
-    "main.js": "/g2uTest/static/js/main.6d771a5e.js",
+    "main.css": "/g2uTest/static/css/main.17631f92.css",
+    "main.js": "/g2uTest/static/js/main.822a2728.js",
     "static/js/787.603b5bae.chunk.js": "/g2uTest/static/js/787.603b5bae.chunk.js",
     "static/media/background.png": "/g2uTest/static/media/background.8f9cefda4eb2bb9af358.png",
     "static/media/SecretMansion-Ea1RW.ttf": "/g2uTest/static/media/SecretMansion-Ea1RW.2ed2a56ea3dedfc68f3f.ttf",
     "index.html": "/g2uTest/index.html",
     "static/media/logo.svg": "/g2uTest/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "main.24799809.css.map": "/g2uTest/static/css/main.24799809.css.map",
-    "main.6d771a5e.js.map": "/g2uTest/static/js/main.6d771a5e.js.map",
+    "main.17631f92.css.map": "/g2uTest/static/css/main.17631f92.css.map",
+    "main.822a2728.js.map": "/g2uTest/static/js/main.822a2728.js.map",
     "787.603b5bae.chunk.js.map": "/g2uTest/static/js/787.603b5bae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24799809.css",
-    "static/js/main.6d771a5e.js"
+    "static/css/main.17631f92.css",
+    "static/js/main.822a2728.js"
   ]
 }
