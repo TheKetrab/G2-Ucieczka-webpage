@@ -1,7 +1,7 @@
 {
   "name": "g2ucieczka",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^11.2.7",
