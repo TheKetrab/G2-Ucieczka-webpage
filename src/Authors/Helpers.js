@@ -7,7 +7,10 @@ function Helpers() {
             <img src={process.env.PUBLIC_URL + "/icons/ucieczka.png"} alt="TheKetrab img"/>
             <h2>TheKetrab</h2>
             <p>
-                Twórca modyfikacji. alafklgdnalvnar kjngark jnarkjg nakgj naejkg naekjgn aerjkng ekjn ke 
+                Twórca modyfikacji. Przygodę z modowaniem Gothica rozpoczął z poradnikami czipa17. Dodając pojedyncze postaci
+                i bawiąc się w Spacerze, w końcu wyrosło coś tak sporych rozmiarów jak Ucieczka :)  Przez te wszystkie lata
+                Ketrab, tworząc samotnie Ucieczkę, miał do czynienia z programowaniem, modelowaniem 3d, obróbką audio, social mediami, ...
+                Piękne doświadczenia :)
             </p>
         </div>
         <div class="helper reveal">
@@ -15,8 +18,8 @@ function Helpers() {
             <h2>Bogu</h2>
             <p>
                 Członek załogi Recovery Team, który zajął się poprawkami skryptowymi, niwelując sporo, bardzo sporo bugów.
-                Poza tym nietrywialne skrypty korzystające z ikarusa/LeGo to jego dzieło. Dzięki temu Panu w 'Ucieczce' można
-                korzystać z Quickslota, FreeAima, czy zmieniać poziom trudności. Gdyby nie bogu, pewnie jakieś 5-10% z Was
+                Poza tym nietrywialne skrypty korzystające z Ikarusa/LeGo to jego dzieło. Dzięki temu Panu w 'Ucieczce' można
+                korzystać z Quickslota, czy zmieniać poziom trudności. Gdyby nie bogu, pewnie jakieś 5-10% z Was
                 zakończyłoby grę z powodu bugów albo innych nieprzyjemności.
             </p>
         </div>

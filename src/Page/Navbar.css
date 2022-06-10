@@ -3,7 +3,7 @@
   min-height: 60px;
   width: 100%;
   position: relative;
-  background-color: #313131;
+  background-color: var(--negro2);
   color: white !important;
   
 }
@@ -28,7 +28,7 @@
     width: 100%;
     position: absolute;
     height: 60px;
-    background-color: #313131;
+    background-color: var(--negro2);
 
     display: flex;
     justify-content: space-around;

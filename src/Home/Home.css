@@ -35,10 +35,12 @@
 
     .left {
         flex-basis: 100%;
+        padding-top: 0;
     }
     
     .right {
         flex-basis: 100%;
+        padding-bottom: 0;
     }
 
     .navigation {

@@ -80,11 +80,11 @@ main {
 
 #download-breaker {
 
-    --breaker-height: 4em;
+    --breaker-height: 2.5em;
 
     width: 100%;
     height: var(--breaker-height);
-    fill: var(--color2);
+    fill: var(--negro2);
 
     position: absolute;
     bottom: calc(-1 * var(--breaker-height) / 2);

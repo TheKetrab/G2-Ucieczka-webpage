@@ -75,8 +75,8 @@
     margin-top: 2em;
     margin-bottom: 2em;
     padding: 10px 0px;
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+    border-top: solid 2px var(--border-clr);
+    border-bottom: solid 2px var(--border-clr);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,13 +140,7 @@
 #main-gallery {
     display: flex;
     flex-direction: column;
-/*
-    background: rgb(254,255,180);
-    background: linear-gradient(140deg, rgba(254,255,180,1) 0%, rgba(253,255,216,1) 29%, rgba(253,255,228,1) 46%, rgba(254,255,230,1) 100%);
-*/
     margin: 0;
-
-
     flex-grow: 1;
 }
 
@@ -394,5 +388,5 @@
 
 .gal-car {
     padding: 10px;
-    border-top: solid 3px black;
+    border-top: solid 3px var(--border-clr);
 }

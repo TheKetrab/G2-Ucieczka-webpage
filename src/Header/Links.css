@@ -10,6 +10,9 @@
     line-height: 2em;
 }
 
+.links > a {
+    margin: 0px 2px;
+}
 
 
 .links img {

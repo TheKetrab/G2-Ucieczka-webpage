@@ -2,6 +2,7 @@ import './Aside.css';
 
 import {useEffect} from 'react'
 import DownloadBtn from './DownloadBtn';
+import Links from '../Header/Links'
 
 function Aside() {
 
@@ -31,7 +32,8 @@ function Aside() {
             <img class="aside-img" src={process.env.PUBLIC_URL + "/img/title.png"} alt="" />
             <h2>Pobierz modyfikację</h2>
             <DownloadBtn />
-            <p>v1.2 1/5/2022</p>
+            <p class="date-version">v1.2 1/7/2022</p>
+            <Links />
             <div class="mod-available">
               <p>Mod dostępny również na:</p>
               <div class="mod-available-concrete">

@@ -26,13 +26,14 @@ class Header extends React.Component {
         <div class="header-top">
             <h1 class="header-title">Gothic 2 Ucieczka</h1>
             <div class="linker">
-                <div class="links">
+                <Links />
+                {/* <div class="links">
                     <a href="" target="_blank"><img src={process.env.PUBLIC_URL + "/icons/yt.png"} alt="YouTube"/></a>
                     <a href="" target="_blank"><img src={process.env.PUBLIC_URL + "/icons/wiki.png"} alt="Gothicpedia"/></a>
                     <a href="" target="_blank"><img src={process.env.PUBLIC_URL + "/icons/tm.png"} alt="TheModders"/></a>
                     <a href="" target="_blank"><img src={process.env.PUBLIC_URL + "/icons/fb.png"} alt="Facebook"/></a>
                     <a href="" target="_blank"><img src={process.env.PUBLIC_URL + "/icons/disc.png"} alt="Discord"/></a>
-                </div>
+                </div> */}
                 <span class="copyright">&copy; TheKetrab, 2019-2022</span>
             </div>    
         </div>
