@@ -8,7 +8,9 @@
 .copyright {
     margin-left: auto;
     line-height: 2em;
+    letter-spacing: normal;
 }
+
 
 .links > a {
     margin: 0px 2px;

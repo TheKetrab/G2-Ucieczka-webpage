@@ -218,6 +218,11 @@
         padding: 0;
     }
 
+    .more-img-and-videos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .more-img-and-videos p {
         font-size: 1em;
     }

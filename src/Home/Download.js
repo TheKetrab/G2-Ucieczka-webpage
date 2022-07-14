@@ -12,11 +12,12 @@ function Download() {
             <div id="assets">
                 <h2>Zasoby do pobrania:</h2>
                     <ul>
-                        <li><a href="https://drive.google.com/file/d/1T1JCEkdrVGNkWli96qMYib4iNYPNB5-b/view?usp=sharing">Instalator</a></li>
-                        <li><a href="">Paczka z modem</a></li>
-                        <li><a href="">Paczka z dubbingiem</a></li>
-                        <li><a href="">Skrypty</a></li>
-                        <li><a href="">Paczka developerska</a></li>
+                        <li><a target="_blank" href="https://drive.google.com/file/d/1T1JCEkdrVGNkWli96qMYib4iNYPNB5-b/view?usp=sharing">Instalator</a></li>
+                        <li><a target="_blank" href="https://drive.google.com/file/d/1MAImALRWHq9w_Zo8__6kwGTP369jNUQs/view?usp=sharing">Poradnik</a></li>
+                        <s><li><a target="_blank" href="">Paczka z modem</a></li></s>
+                        <s><li><a target="_blank" href="">Paczka z dubbingiem</a></li></s>
+                        <li><a target="_blank" href="https://github.com/TheKetrab/G2-Ucieczka">Skrypty</a></li>
+                        <s><li><a target="_blank" href="">Paczka developerska</a></li></s>
                     </ul>
             </div>
         </aside>

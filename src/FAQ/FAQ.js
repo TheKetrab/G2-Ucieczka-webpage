@@ -10,8 +10,11 @@ function FAQ() {
                 </div>
                 <div class="a">
                     <div class="pseudo"></div>
-                    Oficjalny poradnik do Ucieczki znajduje się pod linkiem:
-                    Fanowski poradnik znajduje się tutaj:
+                    Oficjalny poradnik (plik pdf ze screenami i opisami) do Ucieczki znajduje się tutaj: <a target="_blank" href="https://drive.google.com/file/d/1MAImALRWHq9w_Zo8__6kwGTP369jNUQs/view?usp=sharing">KLIK</a>
+                    <br/><br/>
+
+                    
+                    Fanowski poradnik (tekstowy) znajduje się tutaj: <a target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1791379553">KLIK</a>
                 </div>
             </div>
             <div class="qa reveal">
@@ -78,12 +81,13 @@ function FAQ() {
                 <div class="a">
                     <div class="pseudo"></div>
                     Początek rozgrywki w Ucieczce jest stosunkowo trudny. Od trzeciego rozdziału gra staje się prostsza. Dlatego Ucieczka umożliwia dynamiczną zmianę poziomu trudności (tzn. dostosowanie go w trakcie gry). Poziomy trudności różnią się przede wszystkim ilością zadawanych obrażeń.
-
-                    Łatwy: zbliżony trudnością do G2NK
-                    Średni: trochę trudniejszy niż G2NK
-                    Trudny: dla doświadczonych graczy
-                    Bardzo trudny: dla takich, którzy nie lubią łatwych gier
-                    Legendarny: dla tych, którzy lubią dużo wczytywać                
+                    <ul>
+                    <li>Łatwy: zbliżony trudnością do G2NK</li>
+                    <li>Średni: trochę trudniejszy niż G2NK</li>
+                    <li>Trudny: dla doświadczonych graczy</li>
+                    <li>Bardzo trudny: dla tych, co nie lubią łatwych gier</li>
+                    <li>Legendarny: dla tych, którzy lubią dużo wczytywać</li>
+                    </ul>
                 </div>
             </div>
             <div class="qa reveal">

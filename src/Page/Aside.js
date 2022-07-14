@@ -37,7 +37,7 @@ function Aside() {
             <div class="mod-available">
               <p>Mod dostępny również na:</p>
               <div class="mod-available-concrete">
-                <a>Steam</a>
+                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2829159295" target="_blank">Steam</a>
                 <a>Spine</a>
                 <a>ModDb</a>
               </div>
