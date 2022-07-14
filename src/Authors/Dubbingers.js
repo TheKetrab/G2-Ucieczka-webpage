@@ -86,6 +86,12 @@ function Dubbingers() {
     </div>
 
     <div class="row-wrapper">
+        <span>Tomasz Koryciak</span>
+        <span>Godar, Vachut, Jeremiasz</span>
+        <span>115</span>
+    </div>
+
+    <div class="row-wrapper">
         <span>Oskar Piwowar</span>
         <span>Jehen, Cat-San</span>
         <span>115</span>
@@ -101,12 +107,6 @@ function Dubbingers() {
         <span>Kwami Catcher</span>
         <span>Engor, Drax, Benito, Domenic, Adanos, Bandzior(317)</span>
         <span>110</span>
-    </div>
-
-    <div class="row-wrapper">
-        <span>Wiwi</span>
-        <span>Jeremiasz, Dymoondo, Bandzior(311), Niewolnik(322)</span>
-        <span>100</span>
     </div>
 
     <div class="row-wrapper">
@@ -134,9 +134,9 @@ function Dubbingers() {
     </div>
 
     <div class="row-wrapper">
-        <span>Krzysiek Markiewicz</span>
-        <span>Godar, Vachut</span>
-        <span>60</span>
+        <span>Wiwi</span>
+        <span>Dymoondo, Bandzior(311), Niewolnik(322)</span>
+        <span>55</span>
     </div>
 
     <div class="row-wrapper">

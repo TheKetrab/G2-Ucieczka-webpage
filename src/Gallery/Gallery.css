@@ -261,6 +261,10 @@
     
 }
 
+.img-in-car {
+    cursor: pointer;
+}
+
 .img-4-car {
     max-width: 25%;
     height: 250px;

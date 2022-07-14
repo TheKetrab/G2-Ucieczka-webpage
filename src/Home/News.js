@@ -17,6 +17,32 @@ function News() {
                 </div>
             </div> --> */}
 
+
+
+
+
+
+
+
+
+            <div class="reveal">
+                <div class="an-article">
+                    <h2 class="title">Patch 1.2 wydany!</h2>
+                    <p class="date">1 lipca 2022</p>
+                    <img class="news-media" src={process.env.PUBLIC_URL + "/img/news/Ucieczka12Screen1_400.png"} alt="" />
+                    <p class="description">
+                        Dziś, dokładnie w trzecią rocznicę publikacji moda G2 Ucieczka, publikujemy kolejny większy patch: wersję 1.2.
+                        Ta wersja gry uprzyjemnia rozgrywkę eliminując bugi oraz wprowadzając kilka nowych systemów.
+                        Być może skusicie się raz jeszcze, w długie wakacyjne wieczory, przysiąść do Gothica
+                        i poprowadzić Willa do ucieczki z Górniczej Doliny? W tej wersji poza poprawą licznych bugów,
+                        rozwinięto kowalstwo, poprawiono balans gry, dodano kategoryzowany ekwipunek, naprawiono system szkolenia
+                        (picie stałych mikstur i używanie artefaktów nie wpływa na koszt nauki danej umiejętności).
+                        <br/><br/>
+                        Koniecznie ograjcie grę gildią, którą jeszcze nie graliście ;)
+                    </p>
+                </div>
+            </div>
+
             <div class="reveal">
                 <div class="an-article">
                     <h2 class="title">Patch 1.1 wydany!</h2>

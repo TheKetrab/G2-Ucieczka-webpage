@@ -6,13 +6,13 @@ function Download() {
     <div id="download" class="panel">
         <aside class="left">
             <div class="img-u12-wrapper">
-                <img id="img-u12" src={process.env.PUBLIC_URL + '/img/news/Ucieczka11Screen1_400.jpg'} />
+                <img id="img-u12" src={process.env.PUBLIC_URL + '/img/news/Ucieczka12Screen1_400.png'} />
             </div>
             <DownloadBtn/>
             <div id="assets">
                 <h2>Zasoby do pobrania:</h2>
                     <ul>
-                        <li><a href="">Instalator</a></li>
+                        <li><a href="https://drive.google.com/file/d/1T1JCEkdrVGNkWli96qMYib4iNYPNB5-b/view?usp=sharing">Instalator</a></li>
                         <li><a href="">Paczka z modem</a></li>
                         <li><a href="">Paczka z dubbingiem</a></li>
                         <li><a href="">Skrypty</a></li>

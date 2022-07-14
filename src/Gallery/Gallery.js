@@ -39,7 +39,7 @@ function Gallery() {
     
     const carouselItemsFunc = (n,modal,images) => {
 
-        let imgClass = modal ? 'img-modal' : `img-${n}-car`;
+        let imgClass = modal ? 'img-modal' : `img-in-car img-${n}-car`;
 
         var carouselItems = []
         for (let i=0; i<images.length; ) {
